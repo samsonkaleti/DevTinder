@@ -1,0 +1,21 @@
+{
+  "name": "devtinder",
+  "version": "1.0.0",
+  "description": "this is dveloper tinder application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dev",
+    "tinder",
+    "by",
+    "samson",
+    "kaleti"
+  ],
+  "author": "samson kaleti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
