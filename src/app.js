@@ -1,10 +1,6 @@
 const express = require("express");
 const connect_DB = require("./config/db");
-const User = require("./models/user");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
-const userAuth = require("./middleware/AuthMiddleware");
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
